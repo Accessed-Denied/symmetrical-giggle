@@ -9,9 +9,48 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        Text("Saini") 
+        GeometryReader{ proxy in
+            VStack{
+                Spacer().frame(height:proxy.size.height * 0.25)
+                Text("Increment")
+                    .font(.system(size: 64))
+                    .foregroundColor(.white)
+                    .fontWeight(.heavy)
+                Spacer()
+                Button(action: {}){
+                    HStack{
+                        Spacer()
+                        Image(systemName: "plus.circle")
+                            .font(.system(size: 24,weight: .medium))
+                            .foregroundColor(.white)
+                        Text("Create a challenge")
+                            .font(.system(size: 24,weight: .medium))
+                            .foregroundColor(.white)
+                        Spacer()
+                    }
+                }
+                .padding(.horizontal,16)
+                .buttonStyle(PrimaryButtonStyle())
+
+            }.frame(
+                maxWidth: .infinity,
+                maxHeight: .infinity
+            )
+            .background(
+                Image("landingBg")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: proxy.size.width)
+                    .overlay(Color.black.opacity(0.4))
+                    .edgesIgnoringSafeArea(.all)
+            )
+            
+        }
+        
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

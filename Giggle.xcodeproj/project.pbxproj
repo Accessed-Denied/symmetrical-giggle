@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		22A8DC0D25234FF000C9360F /* GiggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC0C25234FF000C9360F /* GiggleApp.swift */; };
-		22A8DC0F25234FF000C9360F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC0E25234FF000C9360F /* ContentView.swift */; };
+		22A8DC0F25234FF000C9360F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC0E25234FF000C9360F /* LandingView.swift */; };
 		22A8DC1125234FF900C9360F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8DC1025234FF900C9360F /* Assets.xcassets */; };
 		22A8DC1425234FF900C9360F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8DC1325234FF900C9360F /* Preview Assets.xcassets */; };
 		22A8DC1F25234FFA00C9360F /* GiggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC1E25234FFA00C9360F /* GiggleTests.swift */; };
 		22A8DC2A25234FFA00C9360F /* GiggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC2925234FFA00C9360F /* GiggleUITests.swift */; };
+		22BF21B72523881D0043DB07 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */; };
+		22BF21BC25238A100043DB07 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21BB25238A100043DB07 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* Begin PBXFileReference section */
 		22A8DC0925234FF000C9360F /* Giggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8DC0C25234FF000C9360F /* GiggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiggleApp.swift; sourceTree = "<group>"; };
-		22A8DC0E25234FF000C9360F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22A8DC0E25234FF000C9360F /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		22A8DC1025234FF900C9360F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A8DC1325234FF900C9360F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22A8DC1525234FF900C9360F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		22A8DC2525234FFA00C9360F /* GiggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8DC2925234FFA00C9360F /* GiggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiggleUITests.swift; sourceTree = "<group>"; };
 		22A8DC2B25234FFA00C9360F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		22BF21BB25238A100043DB07 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				22A8DC0C25234FF000C9360F /* GiggleApp.swift */,
-				22A8DC0E25234FF000C9360F /* ContentView.swift */,
+				22A8DC0E25234FF000C9360F /* LandingView.swift */,
 				22A8DC1025234FF900C9360F /* Assets.xcassets */,
 				22A8DC1525234FF900C9360F /* Info.plist */,
 				22A8DC1225234FF900C9360F /* Preview Content */,
+				22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */,
+				22BF21BB25238A100043DB07 /* Color+Ext.swift */,
 			);
 			path = Giggle;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A8DC0F25234FF000C9360F /* ContentView.swift in Sources */,
+				22BF21B72523881D0043DB07 /* PrimaryButtonStyle.swift in Sources */,
+				22BF21BC25238A100043DB07 /* Color+Ext.swift in Sources */,
+				22A8DC0F25234FF000C9360F /* LandingView.swift in Sources */,
 				22A8DC0D25234FF000C9360F /* GiggleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Giggle/Preview Content\"";
-				DEVELOPMENT_TEAM = 79Q9WFF2X8;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Giggle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -441,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Giggle/Preview Content\"";
-				DEVELOPMENT_TEAM = 79Q9WFF2X8;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Giggle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
