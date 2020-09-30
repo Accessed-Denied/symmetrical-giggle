@@ -15,6 +15,9 @@
 		22A8DC2A25234FFA00C9360F /* GiggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC2925234FFA00C9360F /* GiggleUITests.swift */; };
 		22BF21B72523881D0043DB07 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */; };
 		22BF21BC25238A100043DB07 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21BB25238A100043DB07 /* Color+Ext.swift */; };
+		22BF21C125245CFD0043DB07 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21C025245CFC0043DB07 /* CreateView.swift */; };
+		22BF21C625245D810043DB07 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21C525245D810043DB07 /* DropDownView.swift */; };
+		22BF21CB25246E520043DB07 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21CA25246E520043DB07 /* RemindView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		22A8DC2B25234FFA00C9360F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		22BF21BB25238A100043DB07 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		22BF21C025245CFC0043DB07 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		22BF21C525245D810043DB07 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		22BF21CA25246E520043DB07 /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				22A8DC1225234FF900C9360F /* Preview Content */,
 				22BF21B62523881D0043DB07 /* PrimaryButtonStyle.swift */,
 				22BF21BB25238A100043DB07 /* Color+Ext.swift */,
+				22BF21C025245CFC0043DB07 /* CreateView.swift */,
+				22BF21C525245D810043DB07 /* DropDownView.swift */,
+				22BF21CA25246E520043DB07 /* RemindView.swift */,
 			);
 			path = Giggle;
 			sourceTree = "<group>";
@@ -269,6 +278,9 @@
 				22BF21BC25238A100043DB07 /* Color+Ext.swift in Sources */,
 				22A8DC0F25234FF000C9360F /* LandingView.swift in Sources */,
 				22A8DC0D25234FF000C9360F /* GiggleApp.swift in Sources */,
+				22BF21CB25246E520043DB07 /* RemindView.swift in Sources */,
+				22BF21C125245CFD0043DB07 /* CreateView.swift in Sources */,
+				22BF21C625245D810043DB07 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

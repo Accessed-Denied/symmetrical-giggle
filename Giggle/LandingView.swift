@@ -19,7 +19,7 @@ struct LandingView: View {
                         .foregroundColor(.white)
                         .fontWeight(.heavy)
                     Spacer()
-                    NavigationLink(destination: Text("Navigated"),isActive: $isActive){
+                    NavigationLink(destination: CreateView(),isActive: $isActive){
                         Button(action: {
                             isActive = true
                         }){
@@ -35,10 +35,8 @@ struct LandingView: View {
                             }
                         }
                         .padding(.horizontal,16)
-                        .buttonStyle(PrimaryButtonStyle())
+                        .buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
                     }
-                    
-                    
                 }.frame(
                     maxWidth: .infinity,
                     maxHeight: .infinity
@@ -51,9 +49,8 @@ struct LandingView: View {
                         .overlay(Color.black.opacity(0.4))
                         .edgesIgnoringSafeArea(.all)
                 )
-                
             }
-        }
+        }.accentColor(.primary)
     }
 }
 
