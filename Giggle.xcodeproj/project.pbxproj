@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226BC58D2529A22100BB6011 /* DropDownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BC58C2529A22100BB6011 /* DropDownItemProtocol.swift */; };
 		22A8DC0D25234FF000C9360F /* GiggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC0C25234FF000C9360F /* GiggleApp.swift */; };
 		22A8DC0F25234FF000C9360F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8DC0E25234FF000C9360F /* LandingView.swift */; };
 		22A8DC1125234FF900C9360F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8DC1025234FF900C9360F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		22BF21C125245CFD0043DB07 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21C025245CFC0043DB07 /* CreateView.swift */; };
 		22BF21C625245D810043DB07 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21C525245D810043DB07 /* DropDownView.swift */; };
 		22BF21CB25246E520043DB07 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF21CA25246E520043DB07 /* RemindView.swift */; };
+		22D3E7112525DE6B00C1DEBF /* CreateChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3E7102525DE6B00C1DEBF /* CreateChallengeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		226BC58C2529A22100BB6011 /* DropDownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownItemProtocol.swift; sourceTree = "<group>"; };
 		22A8DC0925234FF000C9360F /* Giggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8DC0C25234FF000C9360F /* GiggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiggleApp.swift; sourceTree = "<group>"; };
 		22A8DC0E25234FF000C9360F /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		22BF21C025245CFC0043DB07 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		22BF21C525245D810043DB07 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		22BF21CA25246E520043DB07 /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		22D3E7102525DE6B00C1DEBF /* CreateChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		22A8DC0B25234FF000C9360F /* Giggle */ = {
 			isa = PBXGroup;
 			children = (
+				22D3E70F2525C1D200C1DEBF /* ViewModels */,
 				22A8DC0C25234FF000C9360F /* GiggleApp.swift */,
 				22A8DC0E25234FF000C9360F /* LandingView.swift */,
 				22A8DC1025234FF900C9360F /* Assets.xcassets */,
@@ -143,6 +148,15 @@
 				22A8DC2B25234FFA00C9360F /* Info.plist */,
 			);
 			path = GiggleUITests;
+			sourceTree = "<group>";
+		};
+		22D3E70F2525C1D200C1DEBF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				22D3E7102525DE6B00C1DEBF /* CreateChallengeViewModel.swift */,
+				226BC58C2529A22100BB6011 /* DropDownItemProtocol.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +292,10 @@
 				22BF21BC25238A100043DB07 /* Color+Ext.swift in Sources */,
 				22A8DC0F25234FF000C9360F /* LandingView.swift in Sources */,
 				22A8DC0D25234FF000C9360F /* GiggleApp.swift in Sources */,
+				22D3E7112525DE6B00C1DEBF /* CreateChallengeViewModel.swift in Sources */,
 				22BF21CB25246E520043DB07 /* RemindView.swift in Sources */,
 				22BF21C125245CFD0043DB07 /* CreateView.swift in Sources */,
+				226BC58D2529A22100BB6011 /* DropDownItemProtocol.swift in Sources */,
 				22BF21C625245D810043DB07 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

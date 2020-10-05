@@ -36,8 +36,10 @@ struct LandingView: View {
                         }
                         .padding(.horizontal,16)
                         .buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
+                        .padding()
                     }
-                }.frame(
+                }
+                .frame(
                     maxWidth: .infinity,
                     maxHeight: .infinity
                 )
@@ -49,8 +51,10 @@ struct LandingView: View {
                         .overlay(Color.black.opacity(0.4))
                         .edgesIgnoringSafeArea(.all)
                 )
+                
             }
         }.accentColor(.primary)
+        
     }
 }
 
